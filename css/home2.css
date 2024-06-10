@@ -1,0 +1,112 @@
+.footer {
+  background-color: #EE4367;
+  height: 455px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .logo {
+  position: relative;
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  font-family: GillSans;
+}
+.footer .logo span {
+  position: absolute;
+  bottom: -5px;
+  color: #ffffff;
+}
+.footer .infoHolder {
+  margin-top: 48px;
+  margin-bottom: 46px;
+}
+.footer .infoHolder .info {
+  font-family: GillSans;
+  font-size: 15px;
+  color: #ffffff;
+}
+.footer .emailBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .emailBar input {
+  height: 60px;
+  width: 529px;
+  background-color: #F56B88;
+  color: #ffffff;
+  border: none;
+  font-family: GillSans;
+  font-size: 16px;
+  padding-left: 23px;
+}
+.footer .emailBar ::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 50%;
+}
+.footer .emailBar ::-moz-placeholder {
+  color: #ffffff;
+  opacity: 50%;
+}
+.footer .emailBar :-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 50%;
+}
+.footer .emailBar ::-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 50%;
+}
+.footer .emailBar ::placeholder {
+  color: #ffffff;
+  opacity: 50%;
+}
+.footer .emailBar button {
+  height: 60px;
+  width: 167px;
+  border: none;
+  color: #EE4367;
+  font-family: GillSans;
+  font-size: 16px;
+}
+.footer .logos {
+  padding-top: 30px;
+}
+.footer .logos img {
+  height: 31.22px;
+}
+.footer .end {
+  color: #ffffff;
+  font-family: GillSans;
+  font-size: 12px;
+  padding-top: 46.7px;
+}
+
+@media only all and (max-width: 1300px) {
+  .events1 {
+    height: 500px;
+  }
+  .events1 .events {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media only all and (max-width: 534px) {
+  .events1 {
+    height: 760px;
+  }
+  .events1 .events {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}

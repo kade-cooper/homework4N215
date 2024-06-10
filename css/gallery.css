@@ -1,0 +1,77 @@
+.bigWrapper {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bigWrapper .galleryPageImageWrapper {
+  height: 236.5px;
+  width: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.bigWrapper .galleryPageImageWrapper .galleryPageImg1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 209, 64, 0.5)), to(rgba(255, 209, 64, 0.5))), url(../images/1.png);
+  background-image: linear-gradient(to bottom, rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/1.png);
+  background-size: 100%;
+  background-position: 10%;
+  height: 187px;
+  width: 489px;
+}
+.bigWrapper .galleryPageImageWrapper .galleryPageImg2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(238, 67, 103, 0.5)), to(rgba(238, 67, 103, 0.5))), url(../images/2.jpeg);
+  background-image: linear-gradient(to bottom, rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.5)), url(../images/2.jpeg);
+  background-size: 160%;
+  height: 187px;
+  width: 187px;
+}
+.bigWrapper .galleryPageImageWrapper .galleryPageImg3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 174, 105, 0.5)), to(rgba(8, 174, 105, 0.5))), url(../images/3.jpg);
+  background-image: linear-gradient(to bottom, rgba(8, 174, 105, 0.5), rgba(8, 174, 105, 0.5)), url(../images/3.jpg);
+  background-size: 170%;
+  background-position: 50%;
+  height: 187px;
+  width: 265px;
+}
+.bigWrapper .galleryPageImageWrapper2 {
+  height: 366px;
+  width: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.bigWrapper .galleryPageImageWrapper2 .galleryPageImg4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 13, 110, 0.5)), to(rgba(84, 13, 110, 0.5))), url(../images/4.jpg);
+  background-image: linear-gradient(to bottom, rgba(84, 13, 110, 0.5), rgba(84, 13, 110, 0.5)), url(../images/4.jpg);
+  background-size: 100%;
+  height: 306px;
+  width: 603px;
+}
+.bigWrapper .galleryPageImageWrapper2 .galleryPageImg5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(59, 206, 171, 0.5)), to(rgba(59, 206, 171, 0.5))), url(../images/5.png);
+  background-image: linear-gradient(to bottom, rgba(59, 206, 171, 0.5), rgba(59, 206, 171, 0.5)), url(../images/5.png);
+  background-size: 260%;
+  background-position: 211%;
+  height: 306px;
+  width: 355px;
+}
+.bigWrapper .tempLinks {
+  height: 100px;
+}

@@ -1,0 +1,43 @@
+.galleryImage5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(59, 206, 171, 0.5)), to(rgba(59, 206, 171, 0.5))), url(../images/2.jpeg);
+  background-image: linear-gradient(to bottom, rgba(59, 206, 171, 0.5), rgba(59, 206, 171, 0.5)), url(../images/2.jpeg);
+  height: 400.5px;
+  width: 980.5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 170%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weirdWrapper5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -275px;
+  margin-left: 0px;
+}
+.weirdWrapper5 .weirdTxt15 {
+  font-family: GillSans;
+  font-size: 300px;
+  color: #3BCEAB;
+}
+.weirdWrapper5 .weirdTxt25 {
+  margin-top: 110px;
+  font-family: GillSans;
+  font-size: 115px;
+  color: #3BCEAB;
+}

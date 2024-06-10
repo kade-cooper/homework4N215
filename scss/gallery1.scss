@@ -1,0 +1,111 @@
+.galleryImageWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .galleryImage{
+        background-image: linear-gradient(to bottom, 
+        rgba(255,209,64,.5), rgba(255,209,64,.5)),
+        url(../images/1.png);
+        height: 400.5px;
+        width: 980.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 170%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+.weirdWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -275px;
+    margin-left: -50px;
+    .weirdTxt1{
+        font-family: GillSans;
+        font-size: 300px;
+        color: #FFD140;
+    }
+    .weirdTxt2{
+        margin-top: 110px;
+        font-family: GillSans;
+        font-size: 140px;
+        color: #FFD140;
+    }
+}
+
+.newWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphWrapper{
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    width: 990px;
+    height: 256.5px;
+
+    .p1{
+        height: 133px;
+        width: 490px;
+        font-family: GillSansLight;
+        font-size: 16px;
+        letter-spacing: 1.8px;
+        padding-right: 48px;
+    }
+    .p2{
+        height: 133px;
+        width: 451px;
+        font-family: GillSansLight;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+    }
+}
+
+@media only all and (max-width: 1024px) {
+    .newWrapper{
+        margin-top: -50px;
+        height: 400px;
+    }
+    .paragraphWrapper{
+        width: 600px;
+    }
+}
+
+@media only all and (max-width: 615px) {
+    .newWrapper{
+        height: 700px;
+        margin-top: -100px;
+    }
+    .paragraphWrapper{
+        width: 400px;
+    }
+    
+}
+
+@media only all and (max-width: 863px) {
+    .weirdWrapper{
+        .weirdTxt1{
+        font-size: 200px;
+    }
+    .weirdTxt2{
+        font-size: 100px;
+    }
+    }
+}
+
+@media only all and (max-width: 615px) {
+    .weirdWrapper{
+        .weirdTxt1{
+        font-size: 100px;
+    }
+    .weirdTxt2{
+        font-size: 50px;
+    }
+    }
+}

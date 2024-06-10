@@ -1,0 +1,133 @@
+@font-face{
+    font-family: GillSans;
+    src: url('../css/fonts/GillSans.ttc')
+}
+
+
+@font-face{
+    font-family: PTSerif;
+    src: url('../css/fonts/PTSerif-Regular.ttf')
+}
+
+@font-face {
+    font-family: GillSansItalic;
+    src: url('../css/fonts/Gill\ Sans\ Italic.otf');
+}
+
+@font-face {
+    font-family: GillSansLight;
+    src: url('../css/fonts/Gill\ Sans\ Light\ Italic.otf');
+}
+
+@font-face {
+    font-family: GillSansBold;
+    src: url('../css/fonts/Gill\ Sans\ Bold.otf');
+}
+
+.wrapper{
+    height:90.5px;
+    width: 100%;
+    position: fixed;
+    nav{
+        max-width: 980px;
+        height: 92.5px;
+        margin: 0 auto;
+        border-bottom: solid 2px #000000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo{
+            position:relative;
+            width: 92px;
+            height: 42px;
+            border: solid 2px #000000;
+            font-family: GillSans;
+
+            span {
+                position: absolute;
+                bottom: -5px;
+                color: #000000;
+            }
+        }
+
+    }
+}
+.links{
+    width:319px;
+    display: flex;
+    justify-content: space-around;
+    a{
+        text-decoration: none;
+        color: #000000;
+        font-family: GillSans;
+    }
+}
+
+span{
+    color: #EE4367;
+}
+
+
+.emptySpace{
+    height: 178px;
+}
+.imageWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .image{
+        background-image: linear-gradient(to bottom, 
+        rgba(255,209,64,.5), rgba(255,209,64,.5)),
+        url(../images/about.jpg);
+        height: 378.5px;
+        width: 979.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 170%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+.historyWrapper{
+    display: flex;
+    justify-content: center;
+        .history{
+        height:238px;
+        width: 979.5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            .our{
+                height: 40px;
+                width: 229px;
+                font-family: GillSans;
+                font-size: 25px;
+                margin-top: -25px;
+                border-bottom: solid 2px #000000;
+            }
+            .space{
+                height: 36.5px;
+            }
+            .text{
+                height:227.5px;
+                font-family: GillSansLight;
+                font-size: 16px;
+                letter-spacing: 1.6px;
+            }
+        }
+}
+
+
+
+
+@media only all and (max-width: 980px){
+    .wrapper{
+        nav{
+            padding: 0 30px;
+        }
+    }
+}

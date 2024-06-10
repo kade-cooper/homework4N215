@@ -1,0 +1,56 @@
+.galleryImage2{
+        background-image: linear-gradient(to bottom, 
+        rgba(238,67,103,.5), rgba(238,67,103,.5)),
+        url(../images/2.jpeg);
+        height: 400.5px;
+        width: 980.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 170%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.weirdWrapper2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -275px;
+    margin-left: -360px;
+    .weirdTxt12{
+        font-family: GillSans;
+        font-size: 300px;
+        color: #EE4367;
+    }
+    .weirdTxt22{
+        margin-top: 110px;
+        font-family: GillSans;
+        font-size: 140px;
+        color: #EE4367;
+    }
+}
+
+@media only all and (max-width: 863px) {
+    .weirdWrapper2{
+        .weirdTxt12{
+        font-size: 200px;
+    }
+    .weirdTxt22{
+        font-size: 100px;
+    }
+    }
+}
+
+@media only all and (max-width: 615px) {
+    .weirdWrapper2{
+        margin-left: -200px;
+        .weirdTxt12{
+        font-size: 100px;
+    }
+    .weirdTxt22{
+        font-size: 50px;
+    }
+    }
+}

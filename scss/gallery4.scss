@@ -1,0 +1,56 @@
+.galleryImage4{
+        background-image: linear-gradient(to bottom, 
+        rgba(84,13,110,.5), rgba(84,13,110,.5)),
+        url(../images/4.jpg);
+        height: 400.5px;
+        width: 980.5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 130%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.weirdWrapper4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -275px;
+    margin-left: -120px;
+    .weirdTxt14{
+        font-family: GillSans;
+        font-size: 300px;
+        color: #540D6E;
+    }
+    .weirdTxt24{
+        margin-top: 110px;
+        font-family: GillSans;
+        font-size: 115px;
+        color: #540D6E;
+    }
+}
+
+@media only all and (max-width: 863px) {
+    .weirdWrapper4{
+        .weirdTxt14{
+        font-size: 200px;
+    }
+    .weirdTxt24{
+        font-size: 100px;
+    }
+    }
+}
+
+@media only all and (max-width: 615px) {
+    .weirdWrapper4{
+        margin-left: -100px;
+        .weirdTxt14{
+        font-size: 100px;
+    }
+    .weirdTxt24{
+        font-size: 50px;
+    }
+    }
+}

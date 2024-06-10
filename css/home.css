@@ -1,0 +1,83 @@
+@font-face {
+  font-family: GillSans;
+  src: url("../css/fonts/GillSans.ttc");
+}
+@font-face {
+  font-family: PTSerif;
+  src: url("../css/fonts/PTSerif-Regular.ttf");
+}
+@font-face {
+  font-family: GillSansItalic;
+  src: url("../css/fonts/Gill Sans Italic.otf");
+}
+@font-face {
+  font-family: GillSansLight;
+  src: url("../css/fonts/Gill Sans Light Italic.otf");
+}
+@font-face {
+  font-family: GillSansBold;
+  src: url("../css/fonts/Gill Sans Bold.otf");
+}
+.wrapper {
+  height: 90.5px;
+  width: 100%;
+  position: fixed;
+}
+.wrapper nav {
+  max-width: 980px;
+  height: 92.5px;
+  margin: 0 auto;
+  border-bottom: solid 2px #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper nav .logo {
+  position: relative;
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  font-family: GillSans;
+}
+.wrapper nav .logo span {
+  position: absolute;
+  bottom: -5px;
+  color: #000000;
+}
+
+.links {
+  width: 319px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.links a {
+  text-decoration: none;
+  color: #000000;
+  font-family: GillSans;
+}
+
+span {
+  color: #EE4367;
+}
+
+.img {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 209, 64, 0.5)), to(rgba(255, 209, 64, 0.5))), url(../images/about.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/about.jpg);
+  width: 979.5px;
+  height: 378.5px;
+}
+
+@media only all and (max-width: 980px) {
+  .wrapper nav {
+    padding: 0 30px;
+  }
+}

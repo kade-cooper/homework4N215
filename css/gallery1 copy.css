@@ -1,0 +1,92 @@
+.galleryImageWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.galleryImageWrapper .galleryImage {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 209, 64, 0.5)), to(rgba(255, 209, 64, 0.5))), url(../images/1.png);
+  background-image: linear-gradient(to bottom, rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/1.png);
+  height: 400.5px;
+  width: 980.5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 170%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weirdWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -275px;
+  margin-left: -50px;
+}
+.weirdWrapper .weirdTxt1 {
+  font-family: GillSans;
+  font-size: 300px;
+  color: #FFD140;
+}
+.weirdWrapper .weirdTxt2 {
+  margin-top: 110px;
+  font-family: GillSans;
+  font-size: 140px;
+  color: #FFD140;
+}
+
+.newWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paragraphWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 990px;
+  height: 256.5px;
+}
+.paragraphWrapper .p1 {
+  height: 133px;
+  width: 490px;
+  font-family: GillSansLight;
+  font-size: 16px;
+  letter-spacing: 1.8px;
+  padding-right: 48px;
+}
+.paragraphWrapper .p2 {
+  height: 133px;
+  width: 451px;
+  font-family: GillSansLight;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
